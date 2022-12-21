@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+/*-----cuerpo del documento index----*/
+
+body{
+    background-image: url(../img/consolavieja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+/*-----encabezado de documento-----*/
+
+header{
+    background-color: chartreuse;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+/*------menu navegable nintndo-play-xbox----*/
+
+.padre{
+    color: rgb(246, 250, 23);
+    padding-left: 120px;
+    padding-top: 150px;
+    display: flex;
+    gap: 20%;
+    font-size: 25px;
+}
+
+.menu{
+    background-color: rgba(84, 82, 85, 0.979);
+    border-radius: 15px;
+    border-color: rgb(240, 255, 28);
+    border-style: solid;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+li a{
+    color: rgb(251, 252, 253);
+}
+
+/*----footer---*/
+
+.redes{
+    display: flex;
+    gap: 25px;
+    margin-top: 20%;
+    margin-left: 80%;
+}
+
+/*-----paginas de consolas---*/
+
+.iralindex{
+    margin-left: 80%;
+    color: rgb(42, 165, 104);
+    background-color: rgb(185, 181, 156);
+    color: #152221;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: solid;
+
+}
+
+
+
+.imagenconsolanintendo{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 25%;
+    border-radius: 30px;
+}
+
+table{
+    background-color: rgb(228, 236, 236);
+    text-align: center;
+}
+
+th,td{
+    border: solid;
+    font-size: 25px;
+}
+
+.lite{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 20%;
+    border-radius: 30px;
+}
+
+/*---analisis----*/
+
+.imagenanalisis{
+    width: 25%;
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+.analisis{
+    color: black;
+    background-color: rgba(185, 202, 90, 0.685);
+    font-size: 25px;
+}
+
+/*----galeria----*/
+
+.videos{
+    padding-left: 30%;
+    padding-top: 10%;
+}
