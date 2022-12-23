@@ -32,10 +32,10 @@ header{
 
 .padre{
     color: rgb(246, 250, 23);
-    padding-left: 120px;
+    padding-left: 10px;
     padding-top: 150px;
     display: flex;
-    gap: 20%;
+    gap: 15%;
     font-size: 25px;
     flex-direction: row;
 }
@@ -45,8 +45,8 @@ header{
     border-radius: 70px;
     border-color: rgb(240, 255, 28);
     border-style: solid;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 40px;
+    padding-top: 10 px;
     padding-bottom: 20px;
     padding-right: 20px;
 }
@@ -59,9 +59,9 @@ li a{
 
 .redes{
     display: flex;
-    gap: 25px;
-    margin-top: 20%;
-    margin-left: 80%;
+    gap: 30px;
+    margin-top: 6%;
+    margin-left: 44%;
 }
 
 /*-----paginas de consolas---*/
@@ -139,8 +139,52 @@ th,td{
         padding-top: 20px;
         
     }
+
+    table{
+        padding-top: 40px;
+        background-color: rgba(45, 155, 52, 0.781);
+        text-align: center;
+    }
+    th,td{
+        border: solid;
+        font-size: 10px;
+    }
+    .imagenconsolanintendo{
+        padding-top: 20px;
+        padding-left: 20px;
+        width: 25%;
+        border-radius: 30px;
+        display: none;
+    }
     
+    .lite{
+        padding-top: 20px;
+        padding-left: 20px;
+        width: 20%;
+        border-radius: 30px;
+        display: none;
+    }
+
+    .iralindex{
+        margin-left: 5%;
+        color: rgb(42, 165, 104);
+        background-color: rgb(185, 181, 156);
+        color: #152221;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border: solid;
+        font-size: 12px;
     
+    }
+
+    body{
+        background-color: rgba(62, 139, 139, 0.699);
+    }
+
+
 }
 
 
