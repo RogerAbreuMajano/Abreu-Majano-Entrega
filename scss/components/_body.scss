@@ -1,0 +1,19 @@
+body{
+    background-image: url(../img/consolavieja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (max-width:768px){
+
+    body{
+        background-image: url(../img/consolavieja.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed
+        
+    }
+    }
