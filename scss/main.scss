@@ -1,3 +1,9 @@
-h1{
-    background-color: aqua;
-}
+@import "./base/base";
+@import "./components/body";
+@import "./components/header";
+@import "./components/navegarSitio";
+@import "./pages/img";
+@import "./pages/analisis";
+@import "./pages/consolas";
+@import "./components/footer";
+@import "./pages/videosPages"

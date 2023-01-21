@@ -1,3 +1,4 @@
+
 .imagenanalisis{
     width: 25%;
     padding-left: 15px;
@@ -6,6 +7,28 @@
 
 .analisis{
     color: black;
-    background-color: rgba(185, 202, 90, 0.685);
-    font-size: 25px;
+    background-color: rgba(191, 241, 235, 0.329);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.intro{
+    color: rgba(248, 6, 6, 0.747);
+    background-color: rgba(191, 241, 235, 0.329);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+@media (max-width:768px){
+    .analisis{
+        color: black;
+        background-color: rgba(194, 199, 194, 0.568);
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+.imagenanalisis{
+    display: none;
+}
 }

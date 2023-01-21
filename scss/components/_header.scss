@@ -1,4 +1,4 @@
-header{
+.encabezado{
     background:linear-gradient( 90deg, rgba(53, 241, 62, 0.884),rgba(0, 255, 242, 0.767), rgba(53, 241, 62, 0.884));
     font-family: monospace;
     text-align: center;
@@ -8,8 +8,7 @@ header{
 }
 
 @media (max-width:768px){
-
-    header{
+    .encabezado{
         background:linear-gradient( 90deg, rgba(53, 241, 62, 0.884),rgba(0, 255, 242, 0.767), rgba(53, 241, 62, 0.884));
         font-family: monospace;
         text-align: center;
@@ -17,5 +16,4 @@ header{
         padding-bottom: 15px;
         font-size: 15px;
     }
-
 }
